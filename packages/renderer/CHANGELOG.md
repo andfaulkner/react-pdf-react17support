@@ -1,5 +1,11 @@
 # @react-pdf/renderer
 
+## 3.0.2
+
+### Patch Changes
+
+- [#2115](https://github.com/diegomura/react-pdf/pull/2115) [`a3f62c9`](https://github.com/diegomura/react-pdf/commit/a3f62c910c0128e0b4312480414dbf8b26dbca1c) Thanks [@jeetiss](https://github.com/jeetiss)! - fix `renderToString` method in node js
+
 ## 3.0.1
 
 ### Patch Changes
