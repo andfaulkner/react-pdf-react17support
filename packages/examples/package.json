@@ -2,7 +2,7 @@
   "name": "@react-pdf/examples-react17support",
   "version": "3.0.0",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "repository": "git@github.com:diegomura/react-pdf.git",
