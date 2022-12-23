@@ -1,6 +1,5 @@
 {
-  "private": false,
-  "name": "@react-pdf/root-react17support",
+  "name": "@andfaulkner/react-pdf-root-react17support",
   "version": "3.0.0",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -17,7 +16,7 @@
     "prepublish": "lerna run build --ignore @react-pdf/yoga",
     "lint": "eslint packages",
     "test": "jest",
-    "examples": "lerna run start --scope @react-pdf/examples-react17support",
+    "examples": "lerna run start --scope @andfaulkner/react-pdf-examples-react17support",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"

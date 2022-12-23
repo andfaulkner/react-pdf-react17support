@@ -2,7 +2,7 @@ import './index.css';
 
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer-react17support';
+import { PDFViewer } from '@andfaulkner/react-pdf-renderer-react17support';
 
 import Svg from './svg';
 import GoTo from './goTo';

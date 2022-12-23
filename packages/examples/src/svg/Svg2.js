@@ -10,7 +10,7 @@ import {
   Tspan,
   LinearGradient,
   Stop,
-} from '@react-pdf/renderer-react17support';
+} from '@andfaulkner/react-pdf-renderer-react17support';
 
 const Svg2 = () => (
   <Svg width="400" viewBox="0 0 600 400">

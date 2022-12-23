@@ -2,7 +2,13 @@
 
 import React from 'react';
 
-import { Page, Document, Link, View, Image } from '@react-pdf/renderer-react17support';
+import {
+  Page,
+  Document,
+  Link,
+  View,
+  Image,
+} from '@andfaulkner/react-pdf-renderer-react17support';
 
 export default () => (
   <Document>

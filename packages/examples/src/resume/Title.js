@@ -1,5 +1,8 @@
 import React from 'react';
-import { Text, StyleSheet } from '@react-pdf/renderer-react17support';
+import {
+  Text,
+  StyleSheet,
+} from '@andfaulkner/react-pdf-renderer-react17support';
 
 const styles = StyleSheet.create({
   title: {

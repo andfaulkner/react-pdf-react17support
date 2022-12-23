@@ -1,5 +1,5 @@
 import React from 'react';
-import { Page, Document } from '@react-pdf/renderer-react17support';
+import { Page, Document } from '@andfaulkner/react-pdf-renderer-react17support';
 
 import Fractal from './Fractal';
 

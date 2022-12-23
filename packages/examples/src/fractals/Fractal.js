@@ -1,5 +1,9 @@
 import React from 'react';
-import { Text, View, StyleSheet } from '@react-pdf/renderer-react17support';
+import {
+  Text,
+  View,
+  StyleSheet,
+} from '@andfaulkner/react-pdf-renderer-react17support';
 
 const palette = [
   '#781c81',

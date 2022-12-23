@@ -2,8 +2,8 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
   <p align="center">React renderer for creating PDF files on the browser and server<p>
   <p align="center">
-    <a href="https://www.npmjs.com/package/@react-pdf/renderer-react17support">
-      <img src="https://img.shields.io/npm/v/@react-pdf/renderer-react17support.svg" />
+    <a href="https://www.npmjs.com/package/@andfaulkner/react-pdf-renderer-react17support">
+      <img src="https://img.shields.io/npm/v/@andfaulkner/react-pdf-renderer-react17support.svg" />
     </a>
     <a href="https://travis-ci.org/andfaulkner/react-pdf-react17support">
       <img src="https://img.shields.io/travis/diegomura/react-pdf.svg" />
@@ -27,14 +27,14 @@ Also note that it won't work with React 16 or 18 - this was built specifically f
 
 ## How to install
 ```sh
-yarn add @react-pdf/renderer-react17support
+yarn add @andfaulkner/react-pdf-renderer-react17support
 ```
 
 ## How it works
 
 ```jsx
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer-react17support';
+import { Document, Page, Text, View, StyleSheet } from '@andfaulkner/react-pdf-renderer-react17support';
 
 // Create styles
 const styles = StyleSheet.create({
@@ -68,7 +68,7 @@ const MyDocument = () => (
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer-react17support';
+import { PDFViewer } from '@andfaulkner/react-pdf-renderer-react17support';
 
 const App = () => (
   <PDFViewer>
@@ -82,7 +82,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ### `Node.` Save in a file
 ```jsx
 import React from 'react';
-import ReactPDF from '@react-pdf/renderer-react17support';
+import ReactPDF from '@andfaulkner/react-pdf-renderer-react17support';
 
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```

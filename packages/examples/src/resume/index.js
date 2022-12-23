@@ -7,7 +7,7 @@ import {
   Image,
   Document,
   StyleSheet,
-} from '@react-pdf/renderer-react17support';
+} from '@andfaulkner/react-pdf-renderer-react17support';
 
 import Header from './Header';
 import Skills from './Skills';

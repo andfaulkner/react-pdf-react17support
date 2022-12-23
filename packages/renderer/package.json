@@ -1,10 +1,9 @@
 {
-  "name": "@react-pdf/renderer-react17support",
+  "name": "@andfaulkner/react-pdf-renderer-react17support",
   "version": "4.0.0",
   "license": "MIT",
   "description": "Create PDF files on the browser and server (React v17-compatible)",
   "types": "index.d.ts",
-  "private": false,
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/andfaulkner/react-pdf-react17support#readme",
   "main": "./lib/react-pdf.cjs.js",

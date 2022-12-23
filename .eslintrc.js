@@ -31,6 +31,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'prefer-object-spread': 0,
     'import/no-named-as-default': 0,
+    'import/no-unresolved': 0,
     'react/state-in-constructor': 0,
     'react/jsx-filename-extension': 0,
     'react/jsx-props-no-spreading': 0,
