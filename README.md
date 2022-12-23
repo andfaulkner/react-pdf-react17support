@@ -2,13 +2,13 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
   <p align="center">React renderer for creating PDF files on the browser and server<p>
   <p align="center">
-    <a href="https://www.npmjs.com/package/@react-pdf/renderer">
-      <img src="https://img.shields.io/npm/v/@react-pdf/renderer.svg" />
+    <a href="https://www.npmjs.com/package/@react-pdf/renderer-react17support">
+      <img src="https://img.shields.io/npm/v/@react-pdf/renderer-react17support.svg" />
     </a>
-    <a href="https://travis-ci.org/diegomura/react-pdf">
+    <a href="https://travis-ci.org/andfaulkner/react-pdf-react17support">
       <img src="https://img.shields.io/travis/diegomura/react-pdf.svg" />
     </a>
-    <a href="https://github.com/diegomura/react-pdf/blob/master/LICENSE">
+    <a href="https://github.com/andfaulkner/react-pdf-react17support/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/diegomura/react-pdf.svg" />
     </a>
     <a href="https://github.com/prettier/prettier">
@@ -21,17 +21,20 @@
 ## Lost?
 
 This package is used to _create_ PDFs using React. If you wish to _display_ existing PDFs, you may be looking for [react-pdf](https://github.com/wojtekmaj/react-pdf).
+Note that this is a (hopefully temporary) fork created to make it work with React 17 (the base package only works with React 16).
+Also note that it won't work with React 16 or 18 - this was built specifically for v17.
+
 
 ## How to install
 ```sh
-yarn add @react-pdf/renderer
+yarn add @react-pdf/renderer-react17support
 ```
 
 ## How it works
 
 ```jsx
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer-react17support';
 
 // Create styles
 const styles = StyleSheet.create({
@@ -65,7 +68,7 @@ const MyDocument = () => (
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer';
+import { PDFViewer } from '@react-pdf/renderer-react17support';
 
 const App = () => (
   <PDFViewer>
@@ -79,7 +82,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ### `Node.` Save in a file
 ```jsx
 import React from 'react';
-import ReactPDF from '@react-pdf/renderer';
+import ReactPDF from '@react-pdf/renderer-react17support';
 
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```

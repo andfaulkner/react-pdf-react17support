@@ -1,4 +1,13 @@
-# @react-pdf/examples
+# @react-pdf/examples-react17support
+
+## 2.0.2
+
+### Major Changes
+
+- Add React 17 support (removes React 16 support).
+
+- Updated dependencies
+  - @react-pdf/renderer-react17support@4.0.0
 
 ## 2.0.2
 

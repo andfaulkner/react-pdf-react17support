@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 
 import React from 'react';
-import { Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Text, View, StyleSheet } from '@react-pdf/renderer-react17support';
 
 import Title from './Title';
 import List, { Item } from './List';

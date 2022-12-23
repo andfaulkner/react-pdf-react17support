@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "@react-pdf/root",
-  "version": "2.0.0",
+  "name": "@react-pdf/root-react17support",
+  "version": "3.0.0",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
-  "repository": "git@github.com:diegomura/react-pdf.git",
+  "homepage": "https://github.com/andfaulkner/react-pdf-react17support#readme",
+  "repository": "git@github.com:andfaulkner/react-pdf-react17support.git",
   "workspaces": [
     "packages/*"
   ],
@@ -17,7 +17,7 @@
     "prepublish": "lerna run build --ignore @react-pdf/yoga",
     "lint": "eslint packages",
     "test": "jest",
-    "examples": "lerna run start --scope @react-pdf/examples",
+    "examples": "lerna run start --scope @react-pdf/examples-react17support",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"
@@ -63,8 +63,8 @@
     "mockdate": "^2.0.2",
     "pdfjs-dist": "2.8.335",
     "prettier": "^1.16.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "rimraf": "^2.6.3",
     "rollup": "^2.60.1",
     "rollup-plugin-ignore": "^1.0.10",
@@ -84,5 +84,5 @@
     "url": "https://opencollective.com/react-pdf",
     "logo": "https://opencollective.com/opencollective/logo.txt"
   },
-  "dependencies": {}
+  "packageManager": "yarn@3.3.1"
 }

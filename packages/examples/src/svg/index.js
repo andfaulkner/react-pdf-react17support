@@ -4,7 +4,7 @@ import ReactPDF, {
   Page,
   Font,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@react-pdf/renderer-react17support';
 
 import Svg0 from './svg';
 import Svg1 from './Svg1';

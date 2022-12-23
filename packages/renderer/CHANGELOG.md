@@ -1,5 +1,11 @@
 # @react-pdf/renderer
 
+## 4.0.0
+
+### Major Changes
+
+- Update peer depedency react to v17.0.2
+
 ## 3.0.1
 
 ### Patch Changes

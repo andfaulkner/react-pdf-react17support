@@ -6,7 +6,7 @@ import {
   Circle,
   LinearGradient,
   RadialGradient,
-} from '@react-pdf/renderer';
+} from '@react-pdf/renderer-react17support';
 
 const Svg4 = () => (
   <Svg viewBox="0 0 10 20" width="170">

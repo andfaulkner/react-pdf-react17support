@@ -1,21 +1,21 @@
 {
-  "name": "@react-pdf/renderer",
-  "version": "3.1.0",
+  "name": "@react-pdf/renderer-react17support",
+  "version": "4.0.0",
   "license": "MIT",
-  "description": "Create PDF files on the browser and server",
+  "description": "Create PDF files on the browser and server (React v17-compatible)",
   "types": "index.d.ts",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "homepage": "https://github.com/andfaulkner/react-pdf-react17support#readme",
   "main": "./lib/react-pdf.cjs.js",
   "module": "./lib/react-pdf.es.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": "https://github.com/andfaulkner/react-pdf-react17support.git",
     "directory": "packages/renderer"
   },
   "browser": {
-    "./lib/react-pdf.es.js": "./lib/react-pdf.browser.es.js",
-    "./lib/react-pdf.cjs.js": "./lib/react-pdf.browser.cjs.js"
+    "./lib/react-pdf.cjs.js": "./lib/react-pdf.browser.cjs.js",
+    "./lib/react-pdf.es.js": "./lib/react-pdf.browser.es.js"
   },
   "scripts": {
     "build": "rimraf ./lib && rollup -c",
@@ -37,7 +37,7 @@
     "scheduler": "^0.17.0"
   },
   "peerDependencies": {
-    "react": "^16.8.6 || ^17.0.0"
+    "react": "^17.0.2"
   },
   "lint-staged": {
     "*.js": [
